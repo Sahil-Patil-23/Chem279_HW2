@@ -19,14 +19,14 @@ Analytical_Integration:
 Run_Analytical_Integration:
 	cd $(BIN_DIR) && ./HW2_Q2
 
-Q1:
+P1:
 	make Numerical_Integration
 	make Run_Numerical_Integration
 
-Q2:
+P2:
 	make Analytical_Integration
 	make Run_Analytical_Integration
 
 all:
-	make Q1
-	make Q2
+	make P1
+	make P2
